@@ -27,12 +27,15 @@ iqtree = { version = ">=3.0.1,<4", channel = "bioconda" }
 rapidnj = { version = ">=2.3.2,<3", channel = "bioconda" }
 pytest = ">=8.4.2,<9"
 pytest-benchmark = ">=5.1.0,<6"
+graphviz = ">=13.1.2,<14"
 
 [pypi-dependencies]
 phylo2vec = "==1.4.0"
 pandas = ">=2.3.2, <3"
 matplotlib = ">=3.10.6, <4"
 seaborn = ">=0.13.2, <0.14"
+networkx = ">=3.5, <4"
+pygraphviz = ">=1.14, <2"
 
 # Site feature configurations
 [feature.site.pypi-dependencies]
